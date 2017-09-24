@@ -1,7 +1,7 @@
 launchpad_rtmidi.py
 ============
 
-This is a fork of the wonderful [launchpad.py][https://github.com/FMMT666/launchpad.py] library by FMMT666. The only difference between this library and the other version is that this one uses 
+This is a fork of the wonderful [launchpad.py][18] library by FMMT666. The only difference between this library and the other version is that this one uses [python-rtmidi][17] instead of PyGame.
 
 A [Novation Launchpad][1] control suite for [Python][2].
 
@@ -1939,3 +1939,5 @@ FMMT666(ASkr)
 [14]: https://novationmusic.de/support/product-downloads?product=Launchpad+MK1
 [15]: https://twitter.com/FMMT666/status/871094540140240896
 [16]: https://twitter.com/FMMT666/status/891077439023087618
+[17]: https://pypi.python.org/pypi/python-rtmidi/1.1.0
+[18]: https://github.com/FMMT666/launchpad.py
