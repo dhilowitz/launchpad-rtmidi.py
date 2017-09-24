@@ -1,0 +1,7 @@
+from launchpad_rtmidi import Launchpad
+from launchpad_rtmidi import LaunchpadMk2
+from launchpad_rtmidi import LaunchpadPro
+from launchpad_rtmidi import LaunchControlXL
+from launchpad_rtmidi import LaunchKeyMini
+from launchpad_rtmidi import Dicer
+import charset

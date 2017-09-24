@@ -5,8 +5,8 @@
 !/images/*
 !/examples
 !/examples/*
-!/launchpad_py
-!/launchpad_py/*
+!/launchpad_rtmidi_py
+!/launchpad_rtmidi_py/*
 
 !README.md
 !README

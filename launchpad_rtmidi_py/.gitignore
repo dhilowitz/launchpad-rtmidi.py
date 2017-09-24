@@ -2,5 +2,5 @@
 
 !.gitignore
 !__init__.py
-!launchpad.py
+!launchpad_rtmidi.py
 !charset.py

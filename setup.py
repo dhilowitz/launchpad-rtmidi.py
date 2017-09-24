@@ -4,18 +4,19 @@ import sys
 
 
 if not sys.version_info[0] == 2:
-	sys.exit("Error: Launchpad.py requires Python 2")
+	sys.exit("Error: Launchpad_rtmidi.py requires Python 2")
 
 
 setup(
-	name = "launchpad_py",
+	name = "launchpad_rtmidi_py",
 	version = "0.7.0",
-	description = "A Novation Launchpad control suite for Python",
+	description = "A Novation Launchpad control suite for Python ('python-rtmidi' fork of FMMT666 package)",
 	long_description = open('README').read(),
-	author = "FMMT666(ASkr)",
-	author_email = "fmmt666@users.noreply.github.com",
+	author = "Dave Hilowitz",
+	author_email = "dhilowitz@users.noreply.github.com",
 	license = "CC BY 4.0",
-	keywords = "novation launchpad midi",
-	url = "https://github.com/FMMT666/launchpad.py",
-	packages = ["launchpad_py"],
+	keywords = "novation launchpad midi rtmidi",
+	url = "https://github.com/dhilowitz/launchpad_rtmidi.py",
+	packages = ["launchpad_rtmidi_py"],
+	install_requires = ["python-rtmidi"]
 )

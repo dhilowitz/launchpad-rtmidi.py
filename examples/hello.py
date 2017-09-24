@@ -11,12 +11,12 @@
 import sys
 
 try:
-	import launchpad_py as launchpad
+	import launchpad_rtmidi_py as launchpad
 except ImportError:
 	try:
-		import launchpad
+		import launchpad_rtmidi
 	except ImportError:
-		sys.exit("error loading launchpad.py")
+		sys.exit("error loading launchpad_rtmidi.py")
 
 import random
 from pygame import time

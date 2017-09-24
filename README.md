@@ -1,5 +1,7 @@
-launchpad.py
+launchpad_rtmidi.py
 ============
+
+This is a fork of the wonderful [launchpad.py][https://github.com/FMMT666/launchpad.py] library by FMMT666. The only difference between this library and the other version is that this one uses 
 
 A [Novation Launchpad][1] control suite for [Python][2].
 
